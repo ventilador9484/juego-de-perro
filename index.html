@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+
+<!-- El SDK de Firebase JS principal siempre es obligatorio y se debe figurar primero -->
+<!-- TODO: Agrega SDK para los productos de Firebase que quieras usar
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Configuración de Firebase de tu aplicación web
+  // Inicializar Firebase
+  var firebaseConfig = {
+  apiKey: "AIzaSyAWAs1KvVfhPQRzSjKSFt1XzsGRbkhqgx8",
+  authDomain: "juego-de-perro.firebaseapp.com",
+  databaseURL: "https://juego-de-perro-default-rtdb.firebaseio.com",
+  projectId: "juego-de-perro",
+  storageBucket: "juego-de-perro.appspot.com",
+  messagingSenderId: "911083103891",
+  appId: "1:911083103891:web:11bdfc2c56c7e928918f66"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="Food.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+</body></html>
